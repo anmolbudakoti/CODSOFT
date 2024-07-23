@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EvePE - The best IT & consultancy service providers, trusted by top companies.">
+    <title>EvePE - The best way to manage your business</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/732/732112.png" type="image/x-icon">
+  <link rel="stylesheet" crossorigin href="/assets/index-DjsSkRPn.css">
+</head>
+
+<body>
+    <div>
+        <!-- NavBar -->
+        <nav class="flex justify-between items-center py-2 gap-1">
+
+            <!-- SidePanel Content -->
+            <div id="mySidepanel"
+                class="h-auto w-0 flex flex-col fixed z-1 top-0 left-0 bg-white overflow-x-hidden transition-all duration-500 pt-1 pb-4">
+                <a class="p-2 text-gray-400 hover:text-black pr-16 text-4xl" href="javascript:void(0)"
+                    class="absolute top-0 right-6 ml-12" onclick="closeNav()">&times;</a>
+                <hr>
+                <a class="p-2 text-xl text-black hover:text-gray-400 pr-16 ml-5" href="#">About</a>
+                <a class="p-2 text-xl text-black hover:text-gray-400 pr-16 ml-5" href="#">Services</a>
+                <a class="p-2 text-xl text-black hover:text-gray-400 pr-16 ml-5" href="#">Clients</a>
+                <a class="p-2 text-xl text-black hover:text-gray-400 pr-16 ml-5" href="#">Contact</a>
+                <hr>
+                <div class="flex justify-center items-center gap-5 mt-4">
+                    <button class="bg-blue-500 hover:bg-blue-400 text-white px-3 py-1 text-xl rounded-md">Log
+                        in</button>
+                    <button class="bg-blue-500 hover:bg-blue-400 text-white px-3 py-1 text-xl rounded-md">Sign
+                        up</button>
+                </div>
+            </div>
+
+            <!-- NavBar Content -->
+            <div class="flex justify-center items-center">
+                <button class="hover:cursor-pointer mr-2 md:mr-4 ml-2 lg:mr-6 md:ml-6"
+                    onclick="openNav()">&#9776;</button>
+                <img class="hidden md:block w-5 h-5 mr-1 lg:h-8 lg:w-8"
+                    src="https://cdn-icons-png.flaticon.com/512/732/732112.png" alt="">
+                <div>
+                    <h1 class="font-bold text-xl lg:text-3xl md:text-2xl"><a href="">EvePE</a></h1>
+                </div>
+            </div>
+
+            <div class="flex justify-between items-center gap-1">
+                <ul class="flex gap-1 md:gap-4 lg:gap-8 items-center font-semibold">
+                    <li class="hover:bg-gray-100 hover:text-black px-1 rounded-md lg:text-lg md:text-lg"><a
+                            href="">Explore</a></li>
+                    <li class="hover:bg-gray-100 hover:text-black px-1 rounded-md lg:text-lg md:text-lg"><a
+                            href="">Pricing</a></li>
+                    <li
+                        class="hidden md:block hover:bg-gray-100 hover:text-black px-1 rounded-md lg:text-lg md:text-lg">
+                        <a href="">About</a>
+                    </li>
+                    <li
+                        class="hidden md:block hover:bg-gray-100 hover:text-black px-1 rounded-md lg:text-lg md:text-lg">
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+                <span
+                    class="hidden md:block hover:bg-gray-200 hover:text-black rounded-md px-1 ml-2 lg:ml-20 lg:text-xl md:text-lg cursor-pointer">Log
+                    in</span>
+                <button
+                    class="bg-blue-500 hover:bg-blue-400 text-white px-2 md:mr-4 mr-2 ml-2 rounded-md lg:text-xl md:text-lg md:py-1">Sign
+                    up</button>
+            </div>
+
+        </nav>
+
+        <hr>
+
+        <!-- Hero Section -->
+        <div class="lg:flex lg:m-auto">
+            <div class="right flex justify-center items-center lg:order-2">
+                <!-- Hero Image -->
+                <img src="https://img.freepik.com/free-vector/flat-creativity-concept-illustration_52683-64279.jpg"
+                    class="md:w-1/2 lg:w-auto" alt="">
+            </div>
+            <div class="left mx-4 flex flex-col gap-2 lg:w-auto lg:order-1 lg:mt-8">
+                <p class="text-xs text-gray-600 lg:text-sm md:text-sm">- FREE 30 DAYS TRIAL</p>
+                <h1 class="font-bold text-4xl lg:text-6xl md:text-5xl">The best way to manage your business.</h1>
+                <p class="text-sm text-gray-800 my-4 lg:text-lg md:text-lg">Our teams truly work to bring the best out
+                    of your business.</p>
+
+                <!-- Search Bar -->
+                <form class="max-w-md md:max-w-xl lg:mb-3 xl:max-w-2xl">
+                    <label for="default-search"
+                        class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+                    <div class="relative">
+                        <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                            <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+                            </svg>
+                        </div>
+                        <input type="search" id="default-search"
+                            class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="Search for Services..." required />
+                        <button type="submit"
+                            class="text-white absolute end-2.5 bottom-2.5 bg-blue-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
+                    </div>
+                </form>
+
+                <div class="flex flex-col justify-center items-center">
+                    <p class="text-sm text-gray-800 my-4 lg:text-lg md:text-lg text-center">Not sure how things will
+                        work? Don't worry! Click here and get started.</p>
+                    <button
+                        class="bg-blue-500 font-semibold hover:bg-blue-400 text-white py-2 px-4 rounded-md w-fit mx-auto md:px-8 lg:mx-28 md:text-xl md:rounded-lg md:mb-2">Try
+                        for free</button>
+                    <button
+                        class="font-semibold outline outline-1 outline-gray-500 hover:bg-gray-200 text-gray-800 py-2 px-4 rounded-md mt-2 mb-8  w-fit mx-auto md:hidden">See
+                        how it works</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-y-2 rounded-t-lg p-4 flex flex-col">
+            <p class="text-gray-800 text-center my-4 font-semibold lg:text-xl md:text-lg">Trusted by individuals and
+                teams at the world's best
+                companies</p>
+            <img src="/assets/Banner_5-DMMx0cXO.png" class="md:hidden mb-4 rounded-lg" loading="lazy" alt="">
+            <img src="/assets/smalllbanner-DdjqBiJu.png" loading="lazy"
+                class="mb-4 hidden md:block lg:w-full xl:w-1/2 xl:self-center rounded-lg" alt="">
+        </div>
+
+        <!-- Main Content/ Why Us Section -->
+        <div class="flex flex-col justify-center items-center p-4 md:flex-row shadow-md shadow-gray-300 xl:mt-5">
+            <div class="leftcard flex flex-col md:w-1/2">
+                <h2
+                    class="font-bold text-2xl font-mono text-center lg:text-3xl lg:mb-3 md:text-3xl md:mb-2 xl:text-5xl">
+                    WHY US?
+                </h2>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-h172kLbwMInrxTAZYldeugUBP2jcgGV3-A&s"
+                    class="md:hidden w-60 self-center" loading="lazy" alt="">
+                <h3 class="font-semibold mb-4 text-center lg:text-xl md:text-lg xl:text-2xl">15 years, we are passionate
+                    about
+                    achieving better results
+                    for our clients.</h3>
+                <p class="text-gray-700 mb-3 text-center lg:text-lg lg:mb-4">We have consistantly collaborated with our
+                    client companies as integral partner, striving to strengthen and enrich their customers in company
+                    relationships.</p>
+                <button
+                    class="bg-blue-500 hover:bg-blue-400 text-white py-2 px-4 rounded-md w-fit mx-auto place-items-center mb-3 lg:text-lg">Read
+                    more</button>
+            </div>
+            <div class="rightcard">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-h172kLbwMInrxTAZYldeugUBP2jcgGV3-A&s"
+                    class="hidden md:block w-80" loading="lazy" alt="">
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- About Us Section -->
+        <div class="flex flex-col justify-center items-center p-4 md:flex-row w-fit shadow-md shadow-gray-300">
+            <div class="leftcard">
+                <img src="https://img.freepik.com/free-vector/self-confidence-concept-illustration_114360-6635.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1721433600&semt=sph"
+                    class="hidden md:block" loading="lazy" alt="">
+            </div>
+            <div class="rightcard flex flex-col md:w-1/2">
+                <h2
+                    class="font-bold text-2xl font-mono text-center lg:text-3xl lg:mb-3 md:text-3xl md:mb-2 xl:text-5xl">
+                    ABOUT US
+                </h2>
+                <img src="https://img.freepik.com/free-vector/self-confidence-concept-illustration_114360-6635.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1721433600&semt=sph"
+                    class="md:hidden  w-60 self-center" loading="lazy" alt="">
+                <h3 class="font-semibold mb-4 text-center lg:text-xl md:text-lg xl:text-2xl">Expert consultancy services
+                    to enhance business performance & drive sustainable growth.</h3>
+                <p class="text-gray-700 mb-3 text-center lg:text-lg lg:mb-4">EvePE has been working for years, providing
+                    tailored solutions and strategic insights to empower organisations, to achieve their goals and
+                    thrive in a competitive market.</p>
+                <button
+                    class="bg-blue-500 hover:bg-blue-400 text-white py-2 px-4 rounded-md w-fit mx-auto place-items-center mb-3 lg:text-lg">Read
+                    more</button>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Services Section -->
+        <div class="flex flex-col justify-center items-center p-10">
+            <div class="leftcard flex flex-col">
+                <h2
+                    class="font-bold text-2xl font-mono text-center my-3 lg:text-3xl lg:mb-3 md:text-3xl md:mb-2 xl:text-5xl">
+                    OUR
+                    SERVICES</h2>
+                <h3 class="font-semibold mb-4 text-center lg:text-xl md:text-lg lg:mb-10 xl:text-2xl">We provide best in
+                    class
+                    services in the following fields.</h3>
+                <!-- Service Cards -->
+                <div
+                    class="container md:grid md:grid-cols-2 md:gap-x-5 md:py-10 lg:px-52 lg:gap-x-36 md:px-32 md:shadow-md md:shadow-gray-600 md:rounded-lg">
+
+                    <!-- Card 1 -->
+                    <a href="#">
+                        <div
+                            class="border border-gray-400 rounded-md overflow-hidden mb-4 hover:md:shadow-md hover:md:shadow-teal-700 md:hover:scale-105 md:hover:transition-all md:hover:duration-200">
+                            <div class="flex flex-col justify-center items-center p-3">
+                                <img src="https://cdn-icons-png.flaticon.com/512/78/78951.png" class="w-24 my-1" alt="">
+                                <h3 class="mb-3 font-bold text-xl text-center">IT services & solutions</h3>
+                                <p class="mb-3  text-center">Delivering comprehensive IT services to enhance operational
+                                    efficiency.</p>
+                            </div>
+                            <div class="bg-teal-500 h-2">
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Card 2 -->
+                    <a href="#">
+                        <div
+                            class="border border-gray-400 rounded-md overflow-hidden mb-4 hover:md:shadow-md hover:md:shadow-teal-700 md:hover:scale-105 md:hover:transition-all md:hover:duration-200">
+                            <div class="flex flex-col justify-center items-center p-3">
+                                <img src="https://polestarcf.com/wp-content/uploads/2023/02/2021-05-24-11-16-08-652-60ab8af8400fb30d202cb224.png"
+                                    class="w-24" alt="">
+                                <h3 class="mb-3 font-bold text-xl text-center">Business process outsourcing</h3>
+                                <p class="mb-3  text-center">Providing outsourcing solutions to streamline processes and
+                                    reduce costs.</p>
+                            </div>
+                            <div class="bg-teal-500 h-2">
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Card 3 -->
+                    <a href="#">
+                        <div
+                            class="border border-gray-400 rounded-md overflow-hidden mb-4 hover:md:shadow-md hover:md:shadow-teal-700 md:hover:scale-105 md:hover:transition-all md:hover:duration-200">
+                            <div class="flex flex-col justify-center items-center p-3">
+                                <img src="https://media.istockphoto.com/id/1352367851/vector/dx-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=_m2prNR3aJFKZ-AH5kVKMr9RGmBnKoWU6J-ExRMBaC0="
+                                    class="w-24 rounded-lg" alt="">
+                                <h3 class="mb-3 font-bold text-xl text-center">Digital transformation & innovation</h3>
+                                <p class="mb-3  text-center">Helping companies leverage advance technologies like AI to
+                                    drive innovation and improve customer experience.</p>
+                            </div>
+                            <div class="bg-teal-500 h-2">
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Card 4 -->
+                    <a href="#">
+                        <div
+                            class="border border-gray-400 rounded-md overflow-hidden mb-4 hover:md:shadow-md hover:md:shadow-teal-700 md:hover:scale-105 md:hover:transition-all md:hover:duration-200">
+                            <div class="flex flex-col justify-center items-center p-3">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzvGJIZ4ousJ88QHEG-2rsOBcAoYxEBAQUMw&s"
+                                    class="w-24 my-3 rounded-lg" alt="">
+                                <h3 class="mb-3 font-bold text-xl text-center">Consulting & advisory services</h3>
+                                <p class="mb-3  text-center">Offering strategic consulting to identify opportunities,
+                                    solve complex problems and implement growth strategies.</p>
+                            </div>
+                            <div class="bg-teal-500 h-2">
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <footer>
+
+            <div class="bg-green-100 p-4 flex flex-col rounded-t-lg">
+                <div class="mb-2">
+                    <img class="w-5 h-5 mr-1 lg:h-8 lg:w-8" src="https://cdn-icons-png.flaticon.com/512/732/732112.png"
+                        alt="">
+                    <a href="">
+                        <h1 class="font-bold text-xl">EvePE</h1>
+                    </a>
+                    <p class="text-xs">&copy; 2024 EvePE,Inc</p>
+                </div>
+
+                <!-- Footer Links -->
+                <div class="flex gap-9 justify-center mb-2">
+                    <a class="hover:text-blue-600" href="">News</a>
+                    <a class="hover:text-blue-600" href="">About</a>
+                    <a class="hover:text-blue-600" href="">Contact</a>
+                    <a class="hover:text-blue-600" href="">Our Team</a>
+                </div>
+            </div>
+
+            <hr class="border border-black">
+
+            <!-- Socials CTA -->
+            <div class="bg-green-200 py-3">
+                <div class="flex justify-center gap-3 my-2">
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" class="w-6" alt=""></a>
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/512/739/739193.png" class="w-6" alt=""></a>
+                    <a href=""><img
+                            src="https://static-00.iconduck.com/assets.00/linkedin-with-circle-icon-512x512-cvyrro5n.png"
+                            class="w-6" alt=""></a>
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" class="w-6" alt=""></a>
+                </div>
+                <p class="text-xs text-center">Copyright &copy;2024, All rights reserved.</p>
+            </div>
+
+        </footer>
+
+    </div>
+
+
+    <script>
+        /* Width of the SidePanel (show) */
+        function openNav() {
+            document.getElementById("mySidepanel").style.width = "100%";
+        }
+
+        /* Width of the SidePanel (hide) */
+        function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0";
+        }
+    </script>
+</body>
+
+</html>
